@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Todays work">
+    <meta name="keywords" content="MTHS, website">
+    <meta name="author" content="Nam Dinh">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Todays work</title>
+      <link rel="stylesheet" "text/js" href="nam.js">
+  </head>
+  <body>
+    <h1>JavaScript Work For Today</h1>
+<img id="myimage" src="./images/SAD face.gif" style="width:100px">
+<button onclick="document.getElementById('myimage').src='./images/Happy face.gif'"type="button">Make him happy</button>
+<button onclick="document.getElementById('myimage').src='./images/SAD face.gif'"type="button">Make him sad</button>
+  <p id="p1" onclick="myFunction()">Click me to change the text.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("p1").innerHTML = "Second day of JavaScript.";
+}
+</script>
+
+<button type="button" onclick="backgroundColor()">Set background color</button>
+
+<script>
+function backgroundColor() {
+  document.body.style.backgroundColor = "gray";
+}
+</script>
+  </body>
+</html>
